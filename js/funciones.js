@@ -11,8 +11,7 @@ $(document).ready(function() {
 		lng: -98.93547890000002,
 		title: 'Asesoria Integral',
 		details: {
-			database_id: 42,
-			author: 'E&T'
+			database_id: 42
 		},
 
 		mouseover: function(e){

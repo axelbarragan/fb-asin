@@ -368,14 +368,15 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background: #001588		;
+    background: #001588;
 }
 .primary-section .triangle {
     border-top: 40px solid #fff ;
 }
-.primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
-}
+/*.primary-section, .primary-section .title p, .primary-section h3 {
+    //color: #FECE1A;
+    color: #FFF;
+}*/
 .primary-section h1 {
     color:#FFF;
 }
@@ -834,7 +835,8 @@ p {
     top:7px;
     color:#fff;
 }
-/*
+
+
 4 Responsible
 ********************************************************************/
  @media (min-width: 1200px) {

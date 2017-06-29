@@ -56,7 +56,7 @@ p {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 .navbar {
-    background: #82BC00	;
+    background: #001588	;
     margin-bottom:0;
     min-height:70px;
 }
@@ -67,7 +67,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #82BC00	;
+    background: #001588	;
     border-radius:0;
     filter: none;
     border: none;
@@ -178,7 +178,17 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #001588	;
+    border-top: 30px solid #001588 !important;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+.triangle-verde {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #82BC00 !important;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -368,7 +378,8 @@ p {
     border-top: 40px solid #fff ;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    //color: #FECE1A;
+    color: #FFF;
 }
 .primary-section h1 {
     color:#FFF;
@@ -802,7 +813,7 @@ p {
     background: rgba(255, 255, 255, 0.9);
     z-index:110;
     position:relative;
-    margin-top:-25px;
+    margin-top: 25px;
     padding:20px;
 }
 .contact-form h3 {
@@ -867,6 +878,22 @@ p {
     top:7px;
     color:#fff;
 }
+/*
+5 colores
+********************************************************************/
+.textoNaranja {
+    color: #FECE1A !important;
+}
+.textoBlanco {
+    color: #FFFFFF !important;
+}
+.textoVerde {
+    color: #82BC00 !important;
+}
+.fondoVerde {
+    background-color: #82BC00 !important;
+}
+/*
 /*
 4 Responsible
 ********************************************************************/

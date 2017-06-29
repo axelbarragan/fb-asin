@@ -1,0 +1,48 @@
+.textoNaranja {
+	color: #FECE1A !important;
+}
+.textoBlanco {
+	color: #FFFFFF !important;
+}
+.textoVerde {
+	color: #82BC00 !important;
+}
+.textoNegro {
+	color: #000000 !important;
+}
+.textoAzul {
+	color: #001588 !important;
+}
+
+.fondoVerde {
+	background-color: #82BC00 !important;
+}
+.fondoAzul {
+	background-color: #001588 !important;
+}
+
+.textoItalica {
+	font-style: italic !important;
+}
+.textoCentro {
+	text-align: center;
+}
+
+hr.lineaDorada {
+	background-color: #FECE1A; 
+	height: 2px; 
+}
+
+.pad-top-55 {
+	padding-top: 55px;
+}
+
+a.correo {
+	color: #FFF;
+}
+a.correo:hover {
+	color: #fed94d;
+}
+a.flu {
+	color: blue;
+}
