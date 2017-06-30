@@ -294,18 +294,20 @@ p {
     padding:0;
     position:relative;
     z-index:4;
+    font-size: 14px;
 }
 .thumbnail h3 {
     color: #FECE1A;
     margin-top:10px;
-    font-size:20px;
+    font-size:10px;
 }
 .thumbnail > p {
     padding-bottom:20px;
+    font-weight: 10px;
 }
 .thumbnail .mask {
     opacity:0.85;
-    filter: alpha(opacity=85);
+    filter: alpha(opacity=75);
     top:100%;
     left:0;
     width:100%;
@@ -517,7 +519,7 @@ p {
     background: #FECE1A;
 }
 .team .thumbnail .mask h2 {
-    margin-top:20%;
+    //margin-top:20%;
 }
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;

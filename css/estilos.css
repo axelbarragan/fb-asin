@@ -27,6 +27,9 @@
 .textoCentro {
 	text-align: center;
 }
+.textoJustificado {
+	text-align: justify;
+}
 
 hr.lineaDorada {
 	background-color: #FECE1A; 
@@ -35,6 +38,12 @@ hr.lineaDorada {
 
 .pad-top-55 {
 	padding-top: 55px;
+}
+.pad-bot-25 {
+	padding-bottom: 25px;
+}
+.pad-15 {
+	padding: 15px;
 }
 
 a.correo {
