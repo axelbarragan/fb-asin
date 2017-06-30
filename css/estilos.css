@@ -46,3 +46,8 @@ a.correo:hover {
 a.flu {
 	color: blue;
 }
+
+.data {
+	display: none;
+	background-color: #f1f1f1;
+}

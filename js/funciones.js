@@ -20,4 +20,14 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".selector").hover(function(){
+				var id=$(this).attr("id");
+				console.log("ENTRADA: "+id);
+				$("."+id).show();
+			},function() {
+				var id=$(this).attr("id");
+				console.log("Salida");
+				$("."+id).hide();
+	});
+
 });
