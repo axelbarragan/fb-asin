@@ -22,10 +22,13 @@ $(document).ready(function() {
 
 	$(".selector").hover(function(){
 		var id=$(this).attr("id");
-		$("."+id).show();
+		$("."+id)
+		.fadeIn()
+		.show();
 	},function() {
 		var id=$(this).attr("id");
-		$("."+id).hide();
+		$("."+id)
+		.hide();
 	});
 
 	var sourceSwap = function () {
