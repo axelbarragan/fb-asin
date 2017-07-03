@@ -60,3 +60,7 @@ a.flu {
 	display: none;
 	background-color: #f1f1f1;
 }
+
+.elemento-oculto {
+	display: none !important;
+}
