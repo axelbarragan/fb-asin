@@ -64,3 +64,8 @@ a.flu {
 .elemento-oculto {
 	display: none !important;
 }
+
+.img-logo-header {
+	width: 400px;
+	height: 400px;
+}
