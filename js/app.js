@@ -33,9 +33,17 @@
         "border-left": containerWidth / 2 + 'px outset transparent',
         "border-right": containerWidth / 2 + 'px outset transparent'
     });
+    $(".triangle-verde").css({
+        "border-left": containerWidth / 2 + 'px outset transparent',
+        "border-right": containerWidth / 2 + 'px outset transparent'
+    });
     $(window).resize(function () {
         containerWidth = $('.container').width();
         $(".triangle").css({
+            "border-left": containerWidth / 2 + 'px outset transparent',
+            "border-right": containerWidth / 2 + 'px outset transparent'
+        });
+        $(".triangle-verde").css({
             "border-left": containerWidth / 2 + 'px outset transparent',
             "border-right": containerWidth / 2 + 'px outset transparent'
         });
@@ -311,6 +319,14 @@ $("#send-mail").click(function () {
 
     //Animate triangles
     jQuery('.triangle').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery(this).addClass("animated fadeInDown");
+        } else {
+            jQuery(this).removeClass("animated fadeInDown");
+        }
+    });
+
+    jQuery('.triangle-verde').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {
