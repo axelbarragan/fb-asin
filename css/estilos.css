@@ -11,14 +11,17 @@
 	color: #000000 !important;
 }
 .textoAzul {
-	color: #001588 !important;
+	color: #003A70 !important;
 }
 
 .fondoVerde {
 	background-color: #82BC00 !important;
 }
 .fondoAzul {
-	background-color: #001588 !important;
+	background-color: #003A70 !important;
+}
+.fondoGris {
+	background-color: #f1f1f1 !important;
 }
 
 .textoItalica {
@@ -68,4 +71,14 @@ a.flu {
 .img-logo-header {
 	width: 400px;
 	height: 400px;
+}
+
+.borde-negro {
+	border: 1px #333 solid !important;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #000 !important;
+	}
 }

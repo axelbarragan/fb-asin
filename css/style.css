@@ -56,7 +56,7 @@ p {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 .navbar {
-    background: #001588	;
+    background: #003A70;
     margin-bottom:0;
     min-height:70px;
 }
@@ -67,7 +67,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #001588	;
+    background: #003A70;
     border-radius:0;
     filter: none;
     border: none;
@@ -94,7 +94,7 @@ p {
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     border: 1px solid #D2AF1C;
     color: #fff;
-    background-color: #071689;
+    background-color: #0054A3;
     transition: border-color 1s ease;
 }
 .nav-pills {
@@ -178,7 +178,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #001588 !important;
+    border-top: 30px solid #003A70 !important;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -374,7 +374,7 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background: #001588		;
+    background: #003A70;
 }
 .primary-section .triangle {
     border-top: 40px solid #fff ;
