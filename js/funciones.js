@@ -22,6 +22,8 @@ $(document).ready(function() {
 
 	$(".selector").hover(function(){
 		var id=$(this).attr("id");
+		var src=$(this).attr("data-alt-src");
+		$(this).attr("src", src);
 		$("."+id)
 		.fadeIn()
 		.show();
