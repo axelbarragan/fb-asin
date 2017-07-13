@@ -45,6 +45,12 @@ hr.lineaDorada {
 .pad-bot-25 {
 	padding-bottom: 25px;
 }
+.pad-left-15 {
+	padding-left: 15px;
+}
+.pad-right-15 {
+	padding-right: 15px;
+}
 .pad-15 {
 	padding: 15px;
 }
@@ -71,6 +77,10 @@ a.flu {
 .img-logo-header {
 	width: 400px;
 	height: 400px;
+}
+
+ul > li {
+	list-style: none;
 }
 
 .borde-negro {

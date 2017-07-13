@@ -31,6 +31,8 @@ $(document).ready(function() {
 		.hide();
 	});
 
+	
+
 	var sourceSwap = function () {
 		var $this = $(this);
 		var newSource = $this.data('alt-src');

@@ -516,7 +516,8 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #FECE1A;
+    //background: #FECE1A;
+    background: #fff;
 }
 .team .thumbnail .mask h2 {
     //margin-top:20%;
@@ -524,13 +525,17 @@ p {
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;
 }
+.team .thumbnail .mask p {
+    padding: 10px;
+    font-size: 1em;
+}
 .about-text {
     margin-top:30px;
 }
-.about-text p {
-    padding:0;
+/*.about-text p {
+    padding:5px;
     font-size:16px;
-}
+}*/
 /*********************************************************************
                         SKILLS BAR
 *********************************************************************/
