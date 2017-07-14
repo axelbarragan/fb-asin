@@ -183,12 +183,12 @@ p {
     border-right: 585px outset transparent;
     position: relative;
 }
-.triangle-verde {
+.triangle-dorado {
     margin: 0 auto;
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #82BC00 !important;
+    border-top: 30px solid #ce973d !important;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -506,8 +506,8 @@ p {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid #fff;
+    /*padding: 10px;
+    border: 1px solid #fff;*/
 }
 .team .thumbnail:hover .social {
     z-index: 5;
@@ -884,21 +884,6 @@ p {
     position:relative;
     top:7px;
     color:#fff;
-}
-/*
-5 colores
-********************************************************************/
-.textoNaranja {
-    color: #FECE1A !important;
-}
-.textoBlanco {
-    color: #FFFFFF !important;
-}
-.textoVerde {
-    color: #82BC00 !important;
-}
-.fondoVerde {
-    background-color: #82BC00 !important;
 }
 /*
 /*

@@ -1,5 +1,5 @@
 .textoNaranja {
-	color: #FECE1A !important;
+	color: rgb(206,151,61) !important;
 }
 .textoBlanco {
 	color: #FFFFFF !important;
@@ -23,6 +23,9 @@
 .fondoGris {
 	background-color: #f1f1f1 !important;
 }
+.fondoDorado {
+	background-color: rgb(206,151,61);
+}
 
 .textoItalica {
 	font-style: italic !important;
@@ -35,7 +38,7 @@
 }
 
 hr.lineaDorada {
-	background-color: #FECE1A; 
+	background-color: rgb(206,151,61); 
 	height: 2px; 
 }
 
@@ -79,12 +82,16 @@ a.flu {
 	height: 400px;
 }
 
-ul > li {
+/*ul > li {
 	list-style: none;
-}
+}*/
 
 .borde-negro {
 	border: 1px #333 solid !important;
+}
+
+.selector {
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

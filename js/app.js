@@ -33,7 +33,7 @@
         "border-left": containerWidth / 2 + 'px outset transparent',
         "border-right": containerWidth / 2 + 'px outset transparent'
     });
-    $(".triangle-verde").css({
+    $(".triangle-dorado").css({
         "border-left": containerWidth / 2 + 'px outset transparent',
         "border-right": containerWidth / 2 + 'px outset transparent'
     });
@@ -43,7 +43,7 @@
             "border-left": containerWidth / 2 + 'px outset transparent',
             "border-right": containerWidth / 2 + 'px outset transparent'
         });
-        $(".triangle-verde").css({
+        $(".triangle-dorado").css({
             "border-left": containerWidth / 2 + 'px outset transparent',
             "border-right": containerWidth / 2 + 'px outset transparent'
         });
@@ -326,7 +326,7 @@ $("#send-mail").click(function () {
         }
     });
 
-    jQuery('.triangle-verde').bind('inview', function (event, visible) {
+    jQuery('.triangle-dorado').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {

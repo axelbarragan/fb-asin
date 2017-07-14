@@ -20,6 +20,17 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".selector").click(function(){
+		$('.data').hide();
+		var id=$(this).attr("id");
+		var src=$(this).attr("data-alt-src");
+		$(this).attr("src", src);
+		$("."+id)
+		.fadeIn()
+		.show();
+	});
+
+	/*
 	$(".selector").hover(function(){
 		var id=$(this).attr("id");
 		var src=$(this).attr("data-alt-src");
@@ -32,20 +43,7 @@ $(document).ready(function() {
 		$("."+id)
 		.hide();
 	});
+*/
 
-	
-
-	var sourceSwap = function () {
-		var $this = $(this);
-		var newSource = $this.data('alt-src');
-		$this.data('alt-src', $this.attr('src'));
-		$this.attr('src', newSource);
-	}
-
-	$(function() {
-		$('img[data-alt-src]').each(function() { 
-			new Image().src = $(this).data('alt-src'); 
-		}).hover(sourceSwap, sourceSwap); 
-	});
 
 });
